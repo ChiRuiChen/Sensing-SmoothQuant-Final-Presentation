@@ -16,6 +16,15 @@ This repository documents the setup and integration process of SmoothQuant, whic
 - **CUDA Toolkit:** 12.2
 
 ## Setup Instructions
+### CUTCLASS Building
+- install cmake
+```bash
+  conda install anaconda::cmake
+```
+- install GNU C++ Compiler
+```bash
+  conda install -c anaconda gxx_linux-64
+```
 
 ### SmoothQuant
 Follow the official SmoothQuant setup instructions:
