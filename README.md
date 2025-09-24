@@ -21,6 +21,10 @@ This repository documents the setup and integration process of SmoothQuant, whic
 ```bash
   conda install anaconda::cmake
 ```
+or
+```bash
+  conda install -c anaconda cmake
+```
 - install GNU C++ Compiler
 ```bash
   conda install -c anaconda gxx_linux-64
